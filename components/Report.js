@@ -69,12 +69,12 @@ return (
     <div>
         <h2>ROI Report</h2>
         <h3>Property Details</h3>
-        <p>Property Name: {propertyData.name}</p>
+        <p>Property Name: {propertyData?.name}</p>
         {/* Return home button */}
         <a href="/" passHref={true}>
             <button>Return Home</button>
         </a>
-        <p>Property Address: {propertyData.address}</p>
+        <p>Property Address: {propertyData?.address}</p>
         {/* Display other property details if needed */}
         <p>ROI (Return on Investment): {roi.toFixed(2)}%</p>
         {/* You can display additional information and the ROI graph here */}
