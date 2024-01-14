@@ -1,0 +1,46 @@
+// styles/forms.module.scss
+
+.form-dialog {
+    // Common styles for all form components
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    animation: slide-up 0.3s ease-in-out;
+  }
+  
+  .address-form {
+    // Specific styles for the AddressForm component
+  }
+  
+  .purchase-form {
+    // Specific styles for the PurchaseForm component
+  }
+  
+  .rehab-form {
+    // Specific styles for the RehabForm component
+  }
+  
+  .loan-form {
+    // Specific styles for the LoanForm component
+  }
+  
+  .income-form {
+    // Specific styles for the IncomeForm component
+  }
+  
+  .expenses-form {
+    // Specific styles for the ExpensesForm component
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
